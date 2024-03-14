@@ -13,16 +13,16 @@ let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h1");
 
 function setUserName() {
-  let myName = prompt("请输入你的名字");
+  let myName = prompt("Enter Your Name");
   localStorage.setItem("name", myName);
-  myHeading.textContent = "想爱哈基米了，" + myName;
+  myHeading.textContent = "Hope you also love the Cat, " + myName;
 }
 
 if (!localStorage.getItem("name")) {
   setUserName();
 } else {
   let storedName = localStorage.getItem("name");
-  myHeading.textContent = "想爱哈基米了，" + storedName;
+  myHeading.textContent = "Hope you also love the Cat, " + storedName;
 }
 
 myButton.onclick = function () {
