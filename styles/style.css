@@ -1,39 +1,19 @@
 html {
-  font-size: 10px; /* px 表示“像素（pixel）”: 基础字号为 10 像素 */
-  font-family: "Open Sans", sans-serif; /* 这应该是你从 Google Fonts 得到的其余输出。 */
-  background-color: antiquewhite;
+  font-family: "Open Sans", sans-serif; /*设定字体为 Open Sans */
+  background-color: black; /*设定背景颜色为黑色*/
 }
+
+/*设置h1字体大小为60px，颜色为白色，居中*/
 h1 {
   font-size: 60px;
-  text-align: center;
-  margin: 0;
-  padding: 20px 0;
   color: white;
-  text-shadow: 3px 3px 1px black;
+  text-align: center;
 }
 
-img {
-  display: block;
-  margin: 0 auto;
-}
-
-p,
-li {
-  font-size: 30px;
-  line-height: 2;
-  letter-spacing: 1px;
-  color: aliceblue;
-  text-shadow: 1px 1px 1px black;
-}
-
-a {
-  font-size: 20px;
-}
-
+/*设置body大小为800px，居中；字体大小为30px，颜色为白色*/
 body {
   width: 800px;
   margin: 0 auto;
-  background-color: burlywood;
-  padding: 0 20px 20px 20px;
-  border: 5px solid white;
+  font-size: 30px;
+  color: white;
 }
