@@ -1,8 +1,7 @@
 html {
-  background: linear-gradient(135deg, #23494A,#BFFFC7);
+  background: linear-gradient(135deg, #23494A,#BFFFC7) no-repeat;
   height: 100%;
   width: 100%;
-  background-position: bottom center;
   background-size: cover;
 }
 
