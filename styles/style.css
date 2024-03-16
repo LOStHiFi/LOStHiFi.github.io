@@ -1,47 +1,46 @@
 html {
-  font-family: "Open Sans", sans-serif; /*设定字体为 Open Sans */
-  /*背景颜色为斜向右上渐变色*/
-  background: linear-gradient(to right, #00a8aa, #f0f600);
+  background: linear-gradient(135deg, #23494A 200px, #BFFFC7 2000px);
 }
 
-/*设置h1字体为 Madimi One，大小为89px，颜色为黑色，居中*/
+body {
+  width: 800px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  font-family: "Jetbrains Mono";
+  font-size: 27px;
+  color: whitesmoke;
+}
+
 h1 {
   font-family: "Silkscreen", sans-serif;
   font-size: 89px;
-  color: black;
+  color: white;
   text-align: center;
-}
-
-/*设置body大小为800px，距离上边100px，居中；字体为Galdeano字体，大小为30px，颜色为黑色，左对齐，距离左边20px*/
-body {
-  width: 800px;
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: "Galdeano";
-  font-size: 30px;
-  
-  color: black;
+  text-shadow: 2px 2px black;
 }
 
 p {
   text-align: start;
   margin-left: 100px;
+  text-shadow: 2px 2px black;
 }
 
 ul {
   text-align: start;
   margin-left: 100px;
+  text-shadow: 2px 2px black;
 }
 
 .text {
   font-weight: 600;
-  letter-spacing: 1.7px;
+  letter-spacing: 2px;
   text-transform: uppercase;
   font-family: "Kanit";
   font-size: 17px;
-  fill: #111;
-  text-shadow: 2px 0px #ccc;
+  fill: #CCFFAA;
+  text-shadow: 2px 0px #1E5B53;
 }
 .main {
   display: grid;
