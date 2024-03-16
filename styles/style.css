@@ -1,21 +1,37 @@
 html {
   font-family: "Open Sans", sans-serif; /*设定字体为 Open Sans */
-  background-color: white; /*设定背景颜色为白色*/
+  /*背景颜色为斜向右上渐变色*/
+  background: linear-gradient(to right, #00a8aa, #f0f600);
 }
 
-/*设置h1字体大小为60px，颜色为黑色，居中*/
+/*设置h1字体为 Madimi One，大小为89px，颜色为黑色，居中*/
 h1 {
-  font-size: 60px;
+  font-family: "Silkscreen", sans-serif;
+  font-size: 89px;
   color: black;
   text-align: center;
 }
 
-/*设置body大小为800px，居中；字体大小为30px，颜色为黑色*/
+/*设置body大小为800px，距离上边100px，居中；字体为Galdeano字体，大小为30px，颜色为黑色，左对齐，距离左边20px*/
 body {
   width: 800px;
-  margin: 0 auto;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Galdeano";
   font-size: 30px;
+  
   color: black;
+}
+
+p {
+  text-align: start;
+  margin-left: 100px;
+}
+
+ul {
+  text-align: start;
+  margin-left: 100px;
 }
 
 .text {
