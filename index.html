@@ -8,17 +8,53 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans"
       rel="stylesheet"
     />
+    <!-- 基本 favicon -->
+    <link rel="icon" href="images/favicon.ico" />
+    <!-- Google字体库中Kanit字体 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap"
+      rel="stylesheet"
+    />
     <!-- 指定文档编码为UTF-8 -->
     <meta charset="utf-8" />
     <!-- 设置页面在移动设备上的视口宽度为设备本身的宽度 -->
     <meta name="viewport" content="width=device-width" />
+    <!-- 页面作者 -->
+    <meta name="author" content="LOS" />
+    <!-- 页面描述 -->
+    <meta name="description" content="A Personal Website" />
     <!-- 页面标题 -->
     <title>LOS's Website</title>
+    <!-- 引入样式表 -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- 引入JavaScript脚本 -->
+    <script src="scripts/main.js" defer></script>
   </head>
 
   <body>
     <!-- 页面主标题 -->
     <h1>Nice To Meet You!</h1>
+    <div class="main">
+      <svg id="rotatingText" viewBox="0 0 200 200" width="300" height="300">
+        <defs>
+          <path
+            id="circle"
+            d="M 100, 100
+                  m -75, 0
+                  a 75, 75 0 1, 0 150, 0
+                  a 75, 75 0 1, 0 -150, 0
+                  "
+          ></path>
+        </defs>
+        <text width="300">
+          <textPath alignment-baseline="top" xlink:href="#circle" class="text">
+            Do The Thing What You Really Want To Do!
+          </textPath>
+        </text>
+      </svg>
+    </div>
     <!-- 自我介绍 -->
     <p>
       Hello, I'm a colleage student.<br />
@@ -39,8 +75,10 @@
       >
         MDN
       </a>
+      and
+      <a href="https://www.kirupa.com/" title="KIRUPA" target="_blank">
+        KIRUPA
+      </a>
     </p>
-    <!-- 引入JavaScript脚本，延迟执行 -->
-    <script src="scripts/main.js" defer></script>
   </body>
 </html>

@@ -1,19 +1,50 @@
 html {
   font-family: "Open Sans", sans-serif; /*设定字体为 Open Sans */
-  background-color: black; /*设定背景颜色为黑色*/
+  background-color: white; /*设定背景颜色为白色*/
 }
 
-/*设置h1字体大小为60px，颜色为白色，居中*/
+/*设置h1字体大小为60px，颜色为黑色，居中*/
 h1 {
   font-size: 60px;
-  color: white;
+  color: black;
   text-align: center;
 }
 
-/*设置body大小为800px，居中；字体大小为30px，颜色为白色*/
+/*设置body大小为800px，居中；字体大小为30px，颜色为黑色*/
 body {
   width: 800px;
   margin: 0 auto;
   font-size: 30px;
-  color: white;
+  color: black;
+}
+
+.text {
+  font-weight: 600;
+  letter-spacing: 1.7px;
+  text-transform: uppercase;
+  font-family: "Kanit";
+  font-size: 17px;
+  fill: #111;
+  text-shadow: 2px 0px #ccc;
+}
+.main {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+.main img {
+  position: absolute;
+}
+
+#rotatingText {
+  animation-name: rotate-circle;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate-circle {
+  to {
+    transform: rotate(1turn);
+  }
 }
