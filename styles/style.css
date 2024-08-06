@@ -16,21 +16,7 @@ body {
   color: whitesmoke;
 }
 
-h1 {
-  font-family: "Silkscreen", sans-serif;
-  font-size: 89px;
-  color: white;
-  text-align: center;
-  text-shadow: 2px 2px black;
-}
-
 p {
-  text-align: start;
-  margin-left: 100px;
-  text-shadow: 2px 2px black;
-}
-
-ul {
   text-align: start;
   margin-left: 100px;
   text-shadow: 2px 2px black;
